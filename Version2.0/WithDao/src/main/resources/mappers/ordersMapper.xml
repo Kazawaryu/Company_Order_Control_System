@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper文件相当于DAO接口的‘实现类’，namespace属性要指定`实现`DAO接口的全限定名-->
+<mapper namespace="com.qfedu.dao.ordersDAO">
+
+    <!-- useGeneratedKeys 设置添加操作是否需要回填生成的主键 -->
+    <!-- keyProperty 设置回填的主键值赋值到参数对象的哪个属性 -->
+    <insert id="insertOrders">
+        insert into orders(contract_num,enterprise,product_model,quantity,contract_manager,contract_date,
+        estimated_delivery_date,lodgement_date,salesman_num,contract_type)
+        values
+        (#{contract_num},#{enterprise},#{product_model},#{quantity},#{contract_manager},#{contract_date},#{estimated_delivery_date},#{lodgement_date},#{salesman_num},#{contract_type})
+    </insert>
+
+    <delete id="deleteOrders">
+        delete
+        from orders
+        where id = #{id}
+    </delete>
+
+    <update id="updateOrders">
+        update orders
+        set
+        enterprise=#{enterprise},
+        product_model=#{product_model},
+        quantity=#{quantity},
+        contract_manager=#{contract_manager},
+        contract_date=#{contract_date},
+        estimated_delivery_date=#{estimated_delivery_date},
+        lodgement_date=#{lodgement_date},
+        salesman_num=#{salesman_num},
+        contract_type=#{contract_type}
+        where contract_num = #{contract_num}
+    </update>
+
+    <!--  resultType 指定查询结果封装的对象的实体类  -->
+    <!--  resultSets 指定当前操作返回的集合类型（可省略）  -->
+
+
+    <!-- resultMap标签用于定义实体类与数据表的映射关系（ORM） -->
+    <resultMap id="ordersMap" type="orders">
+        <id column="contract_num" property="contract_num"/>
+        <result column="enterprise" property="enterprise"/>
+        <result column="product_model" property="product_model"/>
+        <result column="quantity" property="quantity"/>
+        <result column="contract_manager" property="contract_manager"/>
+        <result column="contract_date" property="contract_date"/>
+        <result column="estimated_delivery_date" property="estimated_delivery_date"/>
+        <result column="lodgement_date" property="lodgement_date"/>
+        <result column="salesman_num" property="salesman_num"/>
+        <result column="contract_type" property="contract_type"/>
+    </resultMap>
+
+    <sql id="x">contract_num,enterprise,product_model,quantity,contract_manager,contract_date,
+        estimated_delivery_date,lodgement_date,salesman_num,contract_type
+    </sql>
+
+    <sql id="y">id
+    </sql>
+
+    <!-- resultMap 用于引用一个实体的映射关系，当配置了resultMap之后 resultType就可以省略 -->
+    <select id="listOrders" resultMap="ordersMap">
+        select
+        <include refid="x"/>
+        from orders
+    </select>
+
+    <select id="queryOrders" resultMap="ordersMap">
+        select
+        <include refid="x"/>
+        from orders
+        where id=#{id}
+    </select>
+
+    <select id="countOrders" resultType="java.lang.Integer">
+        select count(*)
+        from orders
+    </select>
+
+    <select id="queryStaffList" resultMap="ordersMap">
+        select
+        <include refid="x"/>
+        from orders
+        where
+        salesman_num = ${A} and contract_num = '${B}'
+        order by estimated_delivery_date, product_model
+    </select>
+
+    <select id="selectID" resultType="java.lang.Integer">
+        select id
+        from orders
+        where contract_num = '${A}' and enterprise = '${B}' and product_model = '${C}' and salesman_num = ${D}
+    </select>
+
+</mapper>
+

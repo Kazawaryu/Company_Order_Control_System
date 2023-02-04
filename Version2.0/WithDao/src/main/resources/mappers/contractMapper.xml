@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper文件相当于DAO接口的‘实现类’，namespace属性要指定`实现`DAO接口的全限定名-->
+<mapper namespace="com.qfedu.dao.contractDAO">
+
+    <insert id="insertContract">
+        <!--        <selectKey keyProperty="stuId" resultType="java.lang.Integer">-->
+        <!--            select last_insert_id()-->
+        <!--        </selectKey>-->
+        insert into contract(contract_num, enterprise,contract_manager,contract_date,estimated_delivery_date,lodgement_date,contract_type)
+        values (#{contract_num}, #{enterprise},#{contract_manager}, #{contract_date},#{estimated_delivery_date}, #{lodgement_date},#{contract_type})
+    </insert>
+
+    <delete id="deleteContract">
+        delete
+        from contract
+        where contract_num = #{contract_num}
+    </delete>
+
+    <update id="updateContract">
+        update contract
+        set enterprise=#{enterprise},
+        contract_manager=#{contract_manager},
+        contract_date=#{contract_date},
+        estimated_delivery_date=#{estimated_delivery_date},
+        lodgement_date=#{lodgement_date},
+        contract_type=#{contract_type},
+        where contract_num = #{contract_num}
+    </update>
+
+
+    <!-- resultMap标签用于定义实体类与数据表的映射关系（ORM） -->
+    <resultMap id="contractMap" type="contract">
+        <id column="contract_num" property="contract_num"/>
+        <result column="enterprise" property="enterprise"/>
+        <result column="contract_manager" property="contract_manager"/>
+        <result column="contract_date" property="contract_date"/>
+        <result column="estimated_delivery_date" property="estimated_delivery_date"/>
+        <result column="lodgement_date" property="lodgement_date"/>
+        <result column="contract_type" property="contract_type"/>
+    </resultMap>
+
+    <sql id="x">contract_num, enterprise,contract_manager,contract_date,estimated_delivery_date,lodgement_date,contract_type</sql>
+    <!-- resultMap 用于引用一个实体的映射关系，当配置了resultMap之后 resultType就可以省略 -->
+    <select id="listContract" resultMap="contractMap">
+        select
+        <include refid="x"/>
+        from contract
+    </select>
+
+    <select id="queryContract" resultMap="contractMap">
+        select
+        <include refid="x"/>
+        from contract
+        where contract_num=#{contract_num}
+    </select>
+
+    <select id="countContract" resultType="java.lang.Integer">
+        select count(*)
+        from contract
+    </select>
+
+
+</mapper>

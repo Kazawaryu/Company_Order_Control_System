@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="demo1">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo1</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.example.demo1.Application" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="file-copy" path="$PROJECT_DIR$/lib/postgresql-42.2.25.jar" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:win:18-ea+6" />
+      <element id="artifact" artifact-name="demo1:jar" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper文件相当于DAO接口的‘实现类’，namespace属性要指定`实现`DAO接口的全限定名-->
+<mapper namespace="com.qfedu.dao.centerDAO">
+
+    <insert id="insertCenter">
+        <!--        <selectKey keyProperty="stuId" resultType="java.lang.Integer">-->
+        <!--            select last_insert_id()-->
+        <!--        </selectKey>-->
+        insert into center(id,name)
+        values (#{id}, #{name})
+    </insert>
+
+    <delete id="deleteCenter">
+        delete
+        from center
+        where id = #{id}
+    </delete>
+
+    <update id="updateCenter">
+        update center
+        set name=#{name}
+        where id = #{id}
+    </update>
+
+
+    <!-- resultMap标签用于定义实体类与数据表的映射关系（ORM） -->
+    <resultMap id="centerMap" type="center">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+
+    </resultMap>
+
+    <sql id="x">id,name</sql>
+
+    <!-- resultMap 用于引用一个实体的映射关系，当配置了resultMap之后 resultType就可以省略 -->
+    <select id="listCenter" resultMap="centerMap">
+        select
+        <include refid="x"/>
+        from center
+    </select>
+
+    <select id="queryCenter" resultMap="centerMap">
+        select
+        <include refid="x"/>
+        from center
+        where id=#{id}
+    </select>
+
+    <select id="countCenter" resultType="java.lang.Integer">
+        select count(*)
+        from center
+    </select>
+
+</mapper>

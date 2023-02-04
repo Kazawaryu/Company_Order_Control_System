@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.cs307_proj2_final.StockIn">
+    <children>
+        <GridPane hgap="10.0" layoutX="59.0" layoutY="-119.0" prefHeight="60.0" prefWidth="478.0" vgap="10.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="450.0" minWidth="10.0" prefWidth="409.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="427.0" minWidth="10.0" prefWidth="59.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <TextField fx:id="MASSAGE" prefHeight="30.0" prefWidth="406.0"
+                           text="Input stock in information, use &quot;,&quot; to split"/>
+                <TextField fx:id="LOCALFILE" text="Input file address" GridPane.rowIndex="1"/>
+                <Button mnemonicParsing="false" onAction="#BUTTON_Input" text="Input" GridPane.columnIndex="1"/>
+                <Button mnemonicParsing="false" onAction="#BUTTON_Local" text="Local" GridPane.columnIndex="1"
+                        GridPane.rowIndex="1"/>
+            </children>
+        </GridPane>
+        <Text layoutX="63.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock In Function">
+            <font>
+                <Font size="28.0"/>
+            </font>
+        </Text>
+        <GridPane layoutX="63.0" layoutY="65.0" prefHeight="270.0" prefWidth="574.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="282.0" minWidth="10.0" prefWidth="153.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="446.0" minWidth="10.0" prefWidth="421.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Supply Center">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Text>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Product Model" GridPane.rowIndex="1">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Text>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Supply Staff" GridPane.rowIndex="2">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Text>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Date" GridPane.rowIndex="3">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Text>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Purchase Price" GridPane.rowIndex="4">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Text>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity" GridPane.rowIndex="5">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Text>
+                <TextField fx:id="center" GridPane.columnIndex="1"/>
+                <TextField fx:id="model" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                <TextField fx:id="staff" editable="false" text="12210722" GridPane.columnIndex="1"
+                           GridPane.rowIndex="2"/>
+                <DatePicker fx:id="date" prefHeight="30.0" prefWidth="448.0" GridPane.columnIndex="1"
+                            GridPane.rowIndex="3"/>
+                <TextField fx:id="price" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+                <TextField fx:id="quantity" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+            </children>
+        </GridPane>
+        <Button layoutX="465.0" layoutY="343.0" mnemonicParsing="false" onAction="#go" prefWidth="80.0" text="GO!"/>
+        <Button layoutX="557.0" layoutY="343.0" mnemonicParsing="false" onAction="#cancel" prefWidth="80.0"
+                text="Cancel"/>
+    </children>
+</AnchorPane>

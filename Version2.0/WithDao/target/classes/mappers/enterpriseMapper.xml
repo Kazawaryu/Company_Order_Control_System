@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper文件相当于DAO接口的‘实现类’，namespace属性要指定`实现`DAO接口的全限定名-->
+<mapper namespace="com.qfedu.dao.enterpriseDAO">
+
+    <!-- useGeneratedKeys 设置添加操作是否需要回填生成的主键 -->
+    <!-- keyProperty 设置回填的主键值赋值到参数对象的哪个属性 -->
+    <insert id="insertEnterprise" >
+        <!--        <selectKey keyProperty="stuId" resultType="java.lang.Integer">-->
+        <!--            select last_insert_id()-->
+        <!--        </selectKey>-->
+        insert into enterprise(id,name,country,city,supply_center,industry)
+        values (#{id}, #{name}, #{country}, #{city}, #{supply_center}, #{industry})
+    </insert>
+
+    <delete id="deleteEnterprise">
+        delete
+        from enterprise
+        where id = #{id}
+    </delete>
+
+    <update id="updateEnterprise">
+        update enterprise
+        set name=#{name},
+        country=#{country},
+        city=#{city},
+        supply_center=#{supply_center},
+        industry=#{industry}
+        where id = #{id}
+    </update>
+
+    <!--  resultType 指定查询结果封装的对象的实体类  -->
+    <!--  resultSets 指定当前操作返回的集合类型（可省略）  -->
+
+
+    <!-- resultMap标签用于定义实体类与数据表的映射关系（ORM） -->
+    <resultMap id="enterpriseMap" type="enterprise">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="country" property="country"/>
+        <result column="city" property="city"/>
+        <result column="supply_center" property="supply_center"/>
+        <result column="industry" property="industry"/>
+    </resultMap>
+
+    <sql id="x">id,name,country,city,supply_center,industry</sql>
+
+    <!-- resultMap 用于引用一个实体的映射关系，当配置了resultMap之后 resultType就可以省略 -->
+    <select id="listEnterprise" resultMap="enterpriseMap">
+        select <include refid="x"/> from enterprise
+    </select>
+
+    <select id="queryEnterprise" resultMap="enterpriseMap">
+        select <include refid="x"/> from enterprise
+        where id=#{id}
+    </select>
+
+    <select id="countEnterprise" resultType="java.lang.Integer">
+        select count(*)
+        from enterprise
+    </select>
+
+</mapper>
+

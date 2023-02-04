@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cs307_proj2_final.PlaceOrder">
+   <children>
+      <TextField fx:id="TEXT_input" layoutX="63.0" layoutY="78.0" prefHeight="30.0" prefWidth="409.0" text="Using &quot;,&quot; to split elements" />
+      <TextField fx:id="TEXT_localfile" layoutX="63.0" layoutY="123.0" prefHeight="30.0" prefWidth="409.0" text="Write local file address" />
+      <Button layoutX="491.0" layoutY="78.0" mnemonicParsing="false" onAction="#BUTTON_input" prefWidth="60.0" text="Input" />
+      <Button layoutX="491.0" layoutY="123.0" mnemonicParsing="false" onAction="#BUTTON_file" prefWidth="60.0" text="File" />
+      <Text layoutX="180.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Place Order Function">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

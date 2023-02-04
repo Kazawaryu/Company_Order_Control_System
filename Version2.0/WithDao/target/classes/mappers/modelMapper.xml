@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper文件相当于DAO接口的‘实现类’，namespace属性要指定`实现`DAO接口的全限定名-->
+<mapper namespace="com.qfedu.dao.modelDAO">
+
+    <!-- useGeneratedKeys 设置添加操作是否需要回填生成的主键 -->
+    <!-- keyProperty 设置回填的主键值赋值到参数对象的哪个属性 -->
+    <insert id="insertModel" >
+        <!--        <selectKey keyProperty="stuId" resultType="java.lang.Integer">-->
+        <!--            select last_insert_id()-->
+        <!--        </selectKey>-->
+        insert into model(id,number,model,name,unit_price)
+        values (#{id}, #{number}, #{model}, #{name}, #{unit_price})
+    </insert>
+
+    <delete id="deleteModel">
+        delete
+        from model
+        where id = #{id}
+    </delete>
+
+    <update id="updateModel">
+        update model
+        set number=#{number},
+        model=#{model},
+        name=#{name},
+        unit_price=#{unit_price},
+        where id = #{id}
+    </update>
+
+    <!--  resultType 指定查询结果封装的对象的实体类  -->
+    <!--  resultSets 指定当前操作返回的集合类型（可省略）  -->
+
+
+    <!-- resultMap标签用于定义实体类与数据表的映射关系（ORM） -->
+    <resultMap id="modelMap" type="model">
+        <id column="id" property="id"/>
+        <result column="number" property="number"/>
+        <result column="model" property="model"/>
+        <result column="name" property="name"/>
+        <result column="unit_price" property="unit_price"/>
+    </resultMap>
+
+    <sql id="x">id,number,model,name,unit_price</sql>
+
+    <!-- resultMap 用于引用一个实体的映射关系，当配置了resultMap之后 resultType就可以省略 -->
+    <select id="listModel" resultMap="modelMap">
+        select <include refid="x"/> from model
+    </select>
+
+    <select id="queryModel" resultMap="modelMap">
+        select <include refid="x"/> from model
+        where id=#{id}
+    </select>
+
+    <select id="countModel" resultType="java.lang.Integer">
+        select count(*)
+        from model
+    </select>
+
+</mapper>
+

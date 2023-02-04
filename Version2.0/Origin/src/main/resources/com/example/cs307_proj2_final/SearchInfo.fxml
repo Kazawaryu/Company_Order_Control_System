@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="325.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cs307_proj2_final.SearchInfo">
+    <children>
+        <Button layoutX="486.0" layoutY="51.0" mnemonicParsing="false" onAction="#Input" prefWidth="80.0" text="GO" />
+        <Button layoutX="486.0" layoutY="147.0" mnemonicParsing="false" onAction="#Cancel" prefWidth="80.0" text="Cancel" />
+        <GridPane layoutX="160.0" layoutY="51.0" prefHeight="126.0" prefWidth="281.0" vgap="10.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <TextField fx:id="INPUT_detail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <MenuButton fx:id="TEXT_searchrow" mnemonicParsing="false" prefHeight="30.0" prefWidth="154.0" textAlignment="CENTER" GridPane.columnIndex="1">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#setRowNum" text="Number" />
+                        <MenuItem mnemonicParsing="false" onAction="#setRowModel" text="Model" />
+                        <MenuItem mnemonicParsing="false" onAction="#setRowName" text="Name" />
+                        <MenuItem mnemonicParsing="false" onAction="#setRowPrice" text="Unit Price" />
+                    </items>
+                </MenuButton>
+                <MenuButton fx:id="TEXT_searchway" mnemonicParsing="false" prefHeight="30.0" prefWidth="172.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#setWayAcc" text="Accurate" />
+                        <MenuItem mnemonicParsing="false" onAction="#setWayRange" text="Range" />
+                        <MenuItem mnemonicParsing="false" onAction="#setWayBlurred" text="Blurred" />
+                    </items>
+                </MenuButton>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Search Row" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Search Way" GridPane.rowIndex="1" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Detail" GridPane.rowIndex="2" />
+            </children>
+        </GridPane>
+      <Button layoutX="486.0" layoutY="200.0" mnemonicParsing="false" onAction="#BUTTON_update" prefWidth="80.0" text="Update" />
+      <Button layoutX="486.0" layoutY="254.0" mnemonicParsing="false" onAction="#BUTTON_insert" prefWidth="80.0" text="Insert" />
+      <Button layoutX="486.0" layoutY="99.0" mnemonicParsing="false" onAction="#BUTTON_delete" prefWidth="80.0" text="Delete" />
+      <HBox layoutX="61.0" layoutY="254.0" prefHeight="30.0" prefWidth="382.0" spacing="10.0">
+         <children>
+            <TextField fx:id="i1" prefHeight="30.0" prefWidth="68.0" />
+            <TextField fx:id="i2" prefHeight="30.0" prefWidth="68.0" />
+            <TextField fx:id="i3" prefHeight="30.0" prefWidth="68.0" />
+            <TextField fx:id="i4" prefHeight="30.0" prefWidth="68.0" />
+            <TextField fx:id="i5" prefHeight="30.0" prefWidth="68.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="61.0" layoutY="200.0" prefHeight="30.0" prefWidth="382.0" spacing="10.0">
+         <children>
+            <TextField fx:id="u1" prefHeight="30.0" prefWidth="68.0" />
+            <TextField fx:id="u2" prefHeight="30.0" prefWidth="68.0" />
+            <TextField fx:id="u3" prefHeight="30.0" prefWidth="68.0" />
+            <TextField fx:id="u4" prefHeight="30.0" prefWidth="68.0" />
+            <TextField fx:id="u5" prefHeight="30.0" prefWidth="68.0" />
+         </children>
+      </HBox>
+      <Text layoutX="111.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Normal Operate for Table Model">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

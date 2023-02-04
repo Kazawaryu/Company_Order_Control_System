@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cs307_proj2_final.HelloController">
+   <children>
+      <PieChart fx:id="PieChart" labelLineLength="10.0" layoutX="-41.0" layoutY="113.0" prefHeight="299.0" prefWidth="373.0" style="-fx-backgroundcolor: 11;" />
+      <MenuBar layoutY="-6.0" prefHeight="41.0" prefWidth="1000.0">
+        <menus>
+          <Menu fx:id="MENU_select" mnemonicParsing="false" text="Select">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Product" />
+                  <MenuItem mnemonicParsing="false" text="EnterPrice" />
+                  <MenuItem mnemonicParsing="false" onAction="#Select_Model" text="Model" />
+                  <MenuItem mnemonicParsing="false" text="Order" />
+            </items>
+          </Menu>
+            <Menu fx:id="MENU_salesman" mnemonicParsing="false" text="Salesman">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#UPDATE_supplystaff" text="Update Order" />
+                  <MenuItem mnemonicParsing="false" onAction="#F_placeorder" text="Place Order" />
+                  <MenuItem mnemonicParsing="false" onAction="#F_deleteorder" text="Delete Order" />
+               </items>
+            </Menu>
+            <Menu fx:id="MENU_supply_staff" mnemonicParsing="false" text="Supply Staff">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#F_stock_in" text="Stock In" />
+                  <MenuItem mnemonicParsing="false" text="Get Product" />
+               </items>
+            </Menu>
+            <Menu fx:id="MENU_manager" mnemonicParsing="false" text="Manager">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#API6_10" text="Get More Information" />
+                  <MenuItem mnemonicParsing="false" onAction="#API11" text="Get average stock by center" />
+                  <MenuItem mnemonicParsing="false" onAction="#API12" text="Get product by number" />
+                  <MenuItem mnemonicParsing="false" onAction="#API13" text="Get contract infomation" />
+                  <MenuItem mnemonicParsing="false" onAction="#F_load" text="Load" />
+               </items>
+            </Menu>
+          <Menu fx:id="MENU_help" mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+                  <MenuItem mnemonicParsing="false" text="Need Help" />
+                  <MenuItem mnemonicParsing="false" onAction="#OriginalInti" text="Back to Original Table" />
+                  <MenuItem mnemonicParsing="false" text="Set Password" />
+            </items>
+          </Menu>
+        </menus>
+         <padding>
+            <Insets top="8.0" />
+         </padding>
+      </MenuBar>
+      <ScrollPane layoutX="285.0" layoutY="35.0" prefHeight="665.0" prefWidth="716.0">
+         <content>
+            <TableView fx:id="TABLEVIEW" prefHeight="1000.0" prefWidth="1500.0">
+              <columns>
+                <TableColumn fx:id="C1" prefWidth="135.0" text="C1" />
+                  <TableColumn fx:id="C2" prefWidth="135.0" text="C2" />
+                  <TableColumn fx:id="C3" prefWidth="135.0" text="C3" />
+                  <TableColumn fx:id="C4" prefWidth="135.0" text="C4" />
+                  <TableColumn fx:id="C5" prefWidth="135.0" text="C5" />
+                  <TableColumn fx:id="C6" prefWidth="135.0" text="C6" />
+                  <TableColumn fx:id="C7" prefWidth="135.0" text="C7" />
+                  <TableColumn fx:id="C8" prefWidth="135.0" text="C8" />
+                  <TableColumn fx:id="C9" prefWidth="135.0" text="C9" />
+                  <TableColumn fx:id="C10" prefWidth="135.0" text="C10" />
+                  <TableColumn fx:id="C11" prefWidth="135.0" text="C11" />
+              </columns>
+            </TableView>
+         </content></ScrollPane>
+      <GridPane layoutX="14.0" layoutY="441.0" prefHeight="192.0" prefWidth="227.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="39.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text fx:id="S1" strokeType="OUTSIDE" strokeWidth="0.0" text="SID">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="S2" strokeType="OUTSIDE" strokeWidth="0.0" text="Total" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="S3" strokeType="OUTSIDE" strokeWidth="0.0" text="Complete" GridPane.rowIndex="2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="S5" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate" GridPane.rowIndex="4">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="SID" strokeType="OUTSIDE" strokeWidth="0.0" text="1919810" GridPane.columnIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="TOTAL" strokeType="OUTSIDE" strokeWidth="0.0" text="114514" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="COMPLETE" strokeType="OUTSIDE" strokeWidth="0.0" text="1919" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="RATE" strokeType="OUTSIDE" strokeWidth="0.0" text="16.76%" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="S4" strokeType="OUTSIDE" strokeWidth="0.0" text="Rank" GridPane.rowIndex="3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="RANK" strokeType="OUTSIDE" strokeWidth="0.0" text="Supply Staff" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </GridPane>
+      <Text layoutX="64.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Staff Information">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="nowtime" layoutX="6.0" layoutY="682.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The time is now:" />
+   </children>
+</Pane>

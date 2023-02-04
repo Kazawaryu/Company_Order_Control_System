@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cs307_proj2_final.API12">
+   <children>
+      <Text layoutX="63.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Product by Number">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="text" layoutX="63.0" layoutY="115.0" />
+      <Button layoutX="288.0" layoutY="115.0" mnemonicParsing="false" onAction="#BUTTON_GO" prefWidth="50.0" text="GO" />
+   </children>
+</AnchorPane>

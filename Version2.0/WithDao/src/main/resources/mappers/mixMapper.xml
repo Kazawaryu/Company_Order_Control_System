@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper文件相当于DAO接口的‘实现类’，namespace属性要指定`实现`DAO接口的全限定名-->
+<mapper namespace="com.qfedu.dao.mixDAO">
+
+    <select id="selectCountABWhat" resultType="java.lang.Integer" parameterType="java.lang.String"
+            statementType="STATEMENT">
+        select count(*)
+        from ${A}
+        where ${B} = '${what}'
+    </select>
+
+    <select id="selectCountABWhatInt" resultType="java.lang.Integer" statementType="STATEMENT">
+        select count(*)
+        from ${A}
+        where ${B} = ${what}
+    </select>
+
+    <select id="statementP1" resultType="java.lang.Integer" statementType="STATEMENT">
+        select count(*) from staff where number = ${s_s} and type = 'Supply Staff'
+    </select>
+
+    <select id="selectFromWhere1" resultType="java.lang.String" statementType="STATEMENT">
+        select ${A}
+        from ${B}
+        where ${C} = ${what}
+    </select>
+
+    <select id="selectFromWhere2" resultType="java.lang.Integer" statementType="STATEMENT">
+        select count(*) from product
+        where product_model= '${A}'
+        and supply_center = '${B}'
+    </select>
+
+    <select id="selectFromWhere3" resultType="java.lang.Integer" statementType="STATEMENT">
+        select quantity from product
+        where product_model= '${A}'
+        and supply_center = '${B}'
+    </select>
+
+    <select id="selectFromWhere4" resultType="java.lang.Integer" statementType="STATEMENT">
+        select id from product
+        where product_model= '${A}'
+        and supply_center = '${B}'
+    </select>
+
+    <select id="selectFromWhere5" resultType="java.lang.String" statementType="STATEMENT">
+        select ${A}
+        from ${B}
+        where ${C} = '${what}'
+    </select>
+
+    <select id="selectFromWhere6" resultType="java.lang.Integer" statementType="STATEMENT">
+        select count(*) from product
+        where product_model = '${A}'
+        and supply_center = '${B}'
+    </select>
+
+    <select id="selectFromWhere7" resultType="java.lang.Integer" statementType="STATEMENT">
+        select quantity from product
+        where product_model = '${A}'
+        and supply_center = '${B}'
+    </select>
+
+    <select id="selectFromWhere9" resultType="java.lang.Integer" statementType="STATEMENT">
+        select count(*) from contract where contract_num = '${A}'
+    </select>
+
+    <update id="selectFromWhere8">
+        update product
+        set quantity = ${A}
+        where product_model = '${B}' and supply_center = '${C}'
+    </update>
+
+    <select id="selectFromWhere10" resultType="java.lang.Integer" statementType="STATEMENT">
+        select count(*) from ${A} where ${B} = '${C}' and ${D} = '${E}'
+    </select>
+
+    <select id="selectFromWhere11" resultType="java.lang.Integer" statementType="STATEMENT">
+        select quantity from product where product_model = '${A}' and supply_center = '${B}'
+    </select>
+
+    <select id="selectFromWhere12" resultType="java.lang.Integer" statementType="STATEMENT">
+        select quantity from orders where contract_num = '${A}' and product_model = '${B}' and salesman_num = ${C}
+    </select>
+
+    <delete id="deleteFromAnd">
+        delete
+        from center
+        where contract_num = '#{A}' and product_model = '#{B}' and salesman_num = #{C}
+    </delete>
+
+    <delete id="deleteFromAnd2">
+        delete
+        from orders
+        where contract_num = '${A}' and id = ${B}
+    </delete>
+
+    <update id="updateTemp">
+        update orders
+        set
+        (quantity,estimated_delivery_date,lodgement_date) =
+        (${A},'${B}','${C}')
+        where contract_num = '${D}' and product_model = '${E}' and salesman_num =${F}
+    </update>
+
+    <select id="selectFromWhere13" resultType="com.qfedu.model.orders" statementType="STATEMENT">
+        select * from orders where contract_num = '${A}' and id =${B}
+    </select>
+
+    <select id="selectFromWhere14" resultType="java.lang.Integer" statementType="STATEMENT">
+        select quantity from product where supply_center='${A}' and product_model='${B}'
+    </select>
+
+
+    <resultMap id="type1" type="staff">
+        <id column="staff_type" property="staff_type"/>
+        <result column="count(*)" property="count(*)"/>
+
+    </resultMap>
+    <select id="getAllStaffCount" resultType="type1" statementType="STATEMENT">
+        select type staff_type, count(*) from staff where type = 'Director' or type = 'Contracts Manager' or type = 'Salesman' or type = 'Supply Staff' group by type
+    </select>
+
+
+
+</mapper>

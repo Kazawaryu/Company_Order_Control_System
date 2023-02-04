@@ -1,0 +1,15 @@
+Processor: Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz (16 CPUs), ~2.3GHz
+Memory: 16384MB RAM
+DirectX Version: DirectX 12
+SSD1: WDC PC SN730 SDBPNTY-512G-1101
+SSD2: WDS100T3X0C-00SJG0
+
+Language: Java
+SDK: Java 17
+IDE: IDEA
+Libraries:  java.io.*
+	java.sql.*
+	java.util.Properties
+	java.util.Random
+	java.util.Scanner
+	java.util.*;

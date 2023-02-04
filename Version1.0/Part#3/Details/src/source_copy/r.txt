@@ -1,0 +1,32 @@
+Internet,1
+Foodstuff,2
+Bank,2
+Retail,3
+Car,5
+Auto parts,3
+Insurance,2
+Military,6
+Electrical and electronic,2
+Pharmaceutical,3
+Chemistry,2
+Energy,3
+Computer,3
+Diversify,5
+Electricity gas,3
+Securities brokerage,3
+Finance,3
+Oil refining,3
+Household chemicals,3
+Electricity and gas utilities,3
+Telecommunications,5
+Food tobacco,3
+Game,1
+Industrial and agricultural equipment,2
+Electricity,7
+Crude,3
+Postal parcels,2
+Petrochemical,7
+Semiconductor,3
+Aerospace,3
+Amusement,2
+Water,2

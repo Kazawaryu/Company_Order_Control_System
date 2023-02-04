@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cs307_proj2_final.UpdateOrder">
+   <children>
+      <HBox layoutX="132.0" layoutY="483.0" prefHeight="30.0" prefWidth="600.0" spacing="20.0">
+         <children>
+            <TextField fx:id="num" />
+            <TextField fx:id="model" />
+            <TextField fx:id="quantity" />
+         </children>
+      </HBox>
+      <HBox layoutX="145.0" layoutY="432.0" prefHeight="30.0" prefWidth="600.0">
+         <children>
+            <TextFlow prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Contract_num" textAlignment="CENTER" wrappingWidth="105.74072265625">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+            <TextFlow prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Product_model" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+            <TextFlow prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+         </children>
+      </HBox>
+      <HBox layoutX="157.0" layoutY="538.0" prefHeight="20.0" prefWidth="600.0">
+         <children>
+            <TextFlow prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="delivery date" textAlignment="CENTER">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+            <TextFlow prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="lodgement date" textAlignment="CENTER" wrappingWidth="102.6015625">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+            <TextFlow prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="salesman num">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+         </children>
+      </HBox>
+      <HBox layoutX="145.0" layoutY="559.0" prefHeight="30.0" prefWidth="600.0" spacing="20.0">
+         <children>
+            <TextField fx:id="del_date" />
+            <TextField fx:id="lod_date" />
+            <TextField fx:id="salesman" />
+         </children>
+      </HBox>
+      <GridPane hgap="10.0" layoutX="216.0" layoutY="387.0" prefHeight="60.0" prefWidth="600.0" vgap="10.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="592.0" minWidth="10.0" prefWidth="530.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="313.0" minWidth="10.0" prefWidth="63.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#BUTTON_file" text="Local" GridPane.columnIndex="1" />
+            <TextField fx:id="address" prefHeight="30.0" prefWidth="525.0" />
+            <Button mnemonicParsing="false" onAction="#BUTTON_Input" text="Input" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Text layoutX="31.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Order Function">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <GridPane layoutX="31.0" layoutY="81.0" prefHeight="88.0" prefWidth="487.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="339.0" minWidth="10.0" prefWidth="150.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="339.0" minWidth="10.0" prefWidth="180.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="578.0" minWidth="10.0" prefWidth="150.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="578.0" minWidth="10.0" prefWidth="180.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,325 @@
+TvBaseR1,T67P542,Tv Base,680
+ElectronicDictionary67,E6N2308,Electronic Dictionary,970
+ExhaustFanD8,E9G8372,Exhaust Fan,320
+MultifunctionalT4,M421X86,Multifunctional,90
+ServerBarebonesH4,SE17564,Server Barebones,70
+LaptopDockingStation94,L17546O,Laptop Docking Station,620
+DotMatrixPrinterK1,D8150P6,Dot Matrix Printer,690
+HumidifierY5,HD86793,Humidifier,470
+PhysicalSecurityIsolation35,P41857Y,Physical Security Isolation,620
+SteeringWheel71,SY73215,Steering Wheel,830
+HotPotJ2,H7143H9,Hot Pot,230
+BuildingIntercom75,B239N58,Building Intercom,80
+SerialCommunicationServerE9,S2180L4,Serial Communication Server,170
+CasetteLibrary26,C95F078,Casette Library,60
+MicrophoneDigitalCompanionX4,MR92570,Microphone Digital Companion,730
+Mp437,M9J6453,Mp4,600
+ServerPowerO3,S5291W4,Server Power,860
+ToiletSeatO7,T35X601,Toilet Seat,810
+DiskArray57,D7903R1,Disk Array,530
+SecurityCameraY2,S86042Z,Security Camera,230
+CameraBattery26,C3752Y9,Camera Battery,340
+HardDiskRecording82,H8713D4,Hard Disk Recording,450
+AirConditioner27,A35J746,Air Conditioner,220
+DvrE9,D56294N,Dvr,510
+InkCartridgeU4,I41V392,Ink Cartridge,890
+Laptop'SBatteryT2,L7B6430,Laptop'S Battery,160
+PrintServer18,P1275R8,Print Server,170
+PhotoBox60,P4052D1,Photo Box,820
+PedometerC2,P20O395,Pedometer,780
+OpticalTransceiver15,OP18549,Optical Transceiver,60
+FlatFilm23,FK39705,Flat Film,990
+HardDiskA7,H5684K7,Hard Disk,530
+MobilePhoneCarAccessories90,M79W815,Mobile Phone Car Accessories,60
+TapeDrivesG3,T739U65,Tape Drives,90
+DesktopPc74,D0Q2543,Desktop Pc,170
+HomeTheater94,HW53167,Home Theater,600
+CardReader59,C741G20,Card Reader,240
+Tester04,T0E9518,Tester,70
+PowerSupply63,P968H24,Power Supply,870
+WashingMachine56,W08294X,Washing Machine,630
+GameLightGunGamePeripheral93,G053V91,Game Light Gun Game Peripheral,710
+AntivirusAndEmailFiltering05,A08264O,Antivirus And Email Filtering,600
+OfficeSoftware20,O8C6513,Office Software,800
+ScreenSplitterA3,S7K6834,Screen Splitter,530
+LightningProtectionProducts26,L47869Q,Lightning Protection Products,800
+AirPurifierV6,AE80564,Air Purifier,900
+LargeFormatPrinterT5,L92148E,Large Format Printer,80
+Cpu38,C02614Q,Cpu,830
+AntivirusSoftwareP9,A392R56,Antivirus Software,480
+BarcodeAndCardReadingEquipment27,B830R57,Barcode And Card Reading Equipment,380
+FaxMachineCopierD4,F8E7125,Fax Machine Copier,820
+RemoteControl83,R243J08,Remote Control,780
+LaminatorMoDriveH2,L0528N6,Laminator Mo Drive,670
+Anti-SlipMobilePhone26,A273M51,Anti-Slip Mobile Phone,580
+Yuba80,YS95071,Yuba,70
+MonitorB2,M328K91,Monitor,720
+HotelEntertainment81,HI14706,Hotel Entertainment,10
+Anti-TheftAlarmHostN4,A37260X,Anti-Theft Alarm Host,230
+Charger07,C48967S,Charger,70
+MobilePower20,M97X845,Mobile Power,930
+E-BookF8,E7R6098,E-Book,940
+OnlineTelephoneO8,O032T69,Online Telephone,870
+DatabaseSoftwareO6,DR28405,Database Software,80
+FlashAccessories41,F76983D,Flash Accessories,460
+RouterB5,R5F0782,Router,670
+MultiplexerL3,MM72065,Multiplexer,550
+DvdPlayer89,DT47956,Dvd Player,770
+MicroscopeU0,M713N46,Microscope,290
+PrinterH8,P8130N9,Printer,790
+Pbx05,P7604Q5,Pbx,890
+TvHanger69,T28310Y,Tv Hanger,570
+WirelessAccessPointY0,WJ50817,Wireless Access Point,770
+DigitalCameraS4,D50A198,Digital Camera,500
+ClusterH8,C96H382,Cluster,270
+GpsI3,G21467A,Gps,680
+ReceiptPrinter06,RC12709,Receipt Printer,730
+TollMachine89,T7E2913,Toll Machine,990
+MobilePhone49,MR46392,Mobile Phone,630
+CellPhoneBattery21,C681E75,Cell Phone Battery,210
+IsbnPrinterA3,I291Q38,Isbn Printer,650
+Telescope92,TU23769,Telescope,550
+AdapterRing70,A794O23,Adapter Ring,790
+OtherAccessoriesQ9,O853L07,Other Accessories,80
+LaminatingMachineC3,LR91308,Laminating Machine,590
+HandwritingInputE9,H4239U1,Handwriting Input,120
+ToasterElectricOvenB8,T9T8140,Toaster Electric Oven,110
+DishwasherM7,D230D47,Dishwasher,1000
+Air-ConditioningFan79,A50L172,Air-Conditioning Fan,180
+ColorManagementX0,C6C1543,Color Management,490
+GasWaterHeaterB3,GC81302,Gas Water Heater,540
+HardDisk51,H239M48,Hard Disk,280
+NetworkCardZ5,N89L425,Network Card,840
+CursorMarkingMachineZ7,CY08734,Cursor Marking Machine,520
+LinePrinterX7,L15649H,Line Printer,450
+Mouse12,M6328D7,Mouse,40
+IndustrialNetworkSwitchR2,I072X68,Industrial Network Switch,30
+PrecisionAirConditionerG9,P3650F7,Precision Air Conditioner,900
+ViewfinderL1,VM86749,Viewfinder,610
+DigitalMobileTvZ2,D0W8356,Digital Mobile Tv,940
+WirelessNetworkCardK0,W49310P,Wireless Network Card,790
+ElectricToothbrushX5,E738Y40,Electric Toothbrush,840
+PrintMedia70,PY35974,Print Media,610
+CameraRemoteO4,C98142A,Camera Remote,140
+Laptop78,L8N0649,Laptop,480
+LaptopPowerAdapterD3,L504L71,Laptop Power Adapter,920
+CleaningAndMaintenanceD0,C46258Y,Cleaning And Maintenance,160
+LaserPrinterT5,L0X9362,Laser Printer,180
+FlashCardG3,F6L2495,Flash Card,720
+PressureCookerP8,P6398B4,Pressure Cooker,10
+Cd-RomBox49,CF29758,Cd-Rom Box,280
+GamePackL5,GS13927,Game Pack,530
+RepeaterB1,R54810N,Repeater,320
+LcdTvS3,L891S65,Lcd Tv,810
+FruitAndVegetableWashingMachineL2,F24170J,Fruit And Vegetable Washing Machine,340
+HoodB4,H089L35,Hood,170
+PlasmaTv10,P15647X,Plasma Tv,940
+ServerHardDriveJ1,S2501J4,Server Hard Drive,100
+UDisk10,U198C32,U Disk,30
+TrafficManagement93,T9508D4,Traffic Management,580
+VacuumCleaner90,V5W8496,Vacuum Cleaner,270
+Cabinet07,C2056I7,Cabinet,900
+TvPlayer60,TO87603,Tv Player,990
+InternetBehaviorManagementG2,I357B21,Internet Behavior Management,680
+WorkstationU5,W9718W3,Workstation,890
+BillingSystemI2,BP82450,Billing System,100
+GameMachineWire98,G071O86,Game Machine Wire,800
+CoffeeMachine86,C6C1349,Coffee Machine,20
+RangeHoodE2,R796N84,Range Hood,880
+KeyboardAndMouseSet73,K62879Z,Keyboard And Mouse Set,370
+Telephone67,T0X9417,Telephone,910
+AllInOneComputerT0,A31Y204,All In One Computer,880
+SpeakerAccessoriesG0,S93N807,Speaker Accessories,300
+GameChargerA5,G9372K0,Game Charger,170
+HardDiskExtractionBox93,H18Z450,Hard Disk Extraction Box,460
+WirelessHdS0,WC49732,Wireless Hd,940
+Monocular54,M8I1749,Monocular,170
+ComputerRemoteControlG0,C7826A5,Computer Remote Control,520
+IndustrialControlEquipment34,I94V518,Industrial Control Equipment,190
+FirewallX5,F4K6753,Firewall,790
+Converter21,C04R672,Converter,680
+CameraFilmQ3,C58G293,Camera Film,420
+TonerCartridge20,T0829X7,Toner Cartridge,230
+MultimediaSoftwareA8,M4Y8765,Multimedia Software,710
+CentralControlSystemU8,C2B7139,Central Control System,470
+WirelessRouter47,WM85971,Wireless Router,20
+VideoServerX4,V0W6342,Video Server,730
+CableJ6,C97014N,Cable,910
+WaterHeater57,W1473B8,Water Heater,620
+Freezer85,F9135R4,Freezer,160
+IntranetSecurityNetworkVulnerabilityScanningP0,IZ80719,Intranet Security Network Vulnerability Scanning,1000
+NotebookCase47,N13J804,Notebook Case,250
+CustomerManagementSoftwareCrmW1,CS90168,Customer Management Software Crm,70
+PocketPcV3,P09Y825,Pocket Pc,890
+ApplicationSupervision29,AE91287,Application Supervision,760
+NetworkExtenderB5,N74Y235,Network Extender,590
+DehumidifierP0,D51962U,Dehumidifier,410
+NotebookAccessories20,N62Z458,Notebook Accessories,890
+MobilePhoneFilm78,M0467E1,Mobile Phone Film,810
+FocusingScreenU5,F9N8470,Focusing Screen,810
+Cd-Rom67,CO19853,Cd-Rom,860
+PowerAmplifier15,P56U187,Power Amplifier,640
+ElectricFan12,EZ12538,Electric Fan,730
+Chassis83,CN93120,Chassis,120
+Pager17,P6O1843,Pager,290
+PaperCutter64,P02C741,Paper Cutter,840
+TabletQ7,T035M47,Tablet,880
+HeatSink24,H64578X,Heat Sink,200
+ServerMemoryA4,S7843Q5,Server Memory,470
+AttendanceMachineW1,A4A8763,Attendance Machine,390
+RealEstateL1,R2I4560,Real Estate,50
+MoneyCounterA3,MC32085,Money Counter,110
+ReadingMachine54,R58049A,Reading Machine,270
+SolarWaterHeaters80,S8465W1,Solar Water Heaters,420
+AntennaSystem39,AU79605,Antenna System,40
+Cd95,C2F0671,Cd,190
+Codec97,C45R631,Codec,670
+ServerMotherboardQ7,S40897X,Server Motherboard,140
+FiberEquipmentF2,FG91426,Fiber Equipment,810
+CarEquipment85,CZ28413,Car Equipment,920
+RecordingPenR9,R7248S9,Recording Pen,470
+CameraBagA2,C37A594,Camera Bag,400
+SlrHandleU6,S956G17,Slr Handle,160
+RepeaterV9,RZ42653,Repeater,250
+LensD7,LO12047,Lens,630
+NotebookFilmZ1,NY39107,Notebook Film,740
+DyeSublimationPrinterY6,D265U39,Dye Sublimation Printer,370
+ImageAlarmM3,I36Z941,Image Alarm,150
+BluetoothAdapterL1,B189A57,Bluetooth Adapter,180
+SoftwareEncryptionI2,S6I1543,Software Encryption,50
+CommunicationSoftware60,C367T20,Communication Software,800
+DestroyEquipmentM9,D7Y5182,Destroy Equipment,690
+CdDuplicator58,C63081N,Cd Duplicator,130
+SaasSoftwareK7,SR61908,Saas Software,850
+EarphoneV5,E895N12,Earphone,730
+WaterDispenserO9,W05C734,Water Dispenser,760
+ElectricIron24,EE05684,Electric Iron,730
+LaserPointersAndPresentersS3,L29837Y,Laser Pointers And Presenters,210
+SurveillanceAroundN5,S15H647,Surveillance Around,590
+TabletBagG4,T1239W5,Tablet Bag,630
+GameJoystick05,G8573U9,Game Joystick,820
+FlashU8,F790I64,Flash,760
+UpsPowerShredder92,UL87156,Ups Power Shredder,700
+FunctionServerE7,FC40169,Function Server,910
+CashRegister06,C634K72,Cash Register,940
+TwistedPair02,TS64823,Twisted Pair,420
+VoiceRecording52,V6Q9754,Voice Recording,720
+Binoculars12,B8E1796,Binoculars,390
+SoyMilkMachineM1,SW03642,Soy Milk Machine,250
+MonitorO3,M85D039,Monitor,650
+ComputerTerminal43,CG63821,Computer Terminal,810
+Mp3A1,M2589S0,Mp3,900
+LoadBalancing61,L85R920,Load Balancing,830
+ColdLaminatorK3,C9520Y6,Cold Laminator,320
+LensCap93,L903I17,Lens Cap,900
+InternetLivingRoomFitnessW4,I436H05,Internet Living Room Fitness,240
+MotherboardA2,M5809H7,Motherboard,720
+CentralWaterHeater34,CC50327,Central Water Heater,30
+OfficeEquipmentAccessoriesI1,O9F4205,Office Equipment Accessories,340
+Program-ControlledSwitchD8,P9L0284,Program-Controlled Switch,830
+ElectricBakingPanC6,EU82057,Electric Baking Pan,1000
+Server43,S0912X5,Server,870
+DigitizerX4,D1G4290,Digitizer,550
+ServerChassisH9,S7Z8134,Server Chassis,380
+DigitalFrame12,D68950Z,Digital Frame,950
+InductionCooker21,I8206B5,Induction Cooker,180
+MobilePhoneCompanionI6,MG73026,Mobile Phone Companion,540
+InkjetPrintersW0,IQ87164,Inkjet Printers,400
+JuicerJ9,JS30927,Juicer,80
+Ram93,R6K1395,Ram,10
+LaptopDisplay24,L8930C4,Laptop Display,830
+InfraredAdapterS3,I79Y023,Infrared Adapter,110
+SoundCard61,S03485W,Sound Card,170
+DigitalAccessoriesL9,DD18704,Digital Accessories,470
+ElectricHeaterE3,E8T2037,Electric Heater,660
+Walkie-TalkieI5,W318D96,Walkie-Talkie,220
+VideoGameControllerZ5,V968Q15,Video Game Controller,360
+MobilePhoneChargerD7,M40V792,Mobile Phone Charger,180
+KeyboardS0,K7458M2,Keyboard,710
+FootBathEyeProtectionLampG9,F1L0847,Foot Bath Eye Protection Lamp,210
+VideoCaptureCard04,V56301I,Video Capture Card,520
+Scanner43,SB01298,Scanner,820
+TransceiverU0,T1749L0,Transceiver,430
+GameConsoleFilmN3,G427L06,Game Console Film,70
+BindingMachineM0,BE04182,Binding Machine,740
+TabletBaseW5,T95761U,Tablet Base,360
+LcdMonitor47,L5T1069,Lcd Monitor,630
+MouseFootStickerK1,ME59832,Mouse Foot Sticker,190
+DisinfectionCabinetX2,DB83217,Disinfection Cabinet,520
+AccessControlMachineY2,A58192Z,Access Control Machine,720
+CallCenterC9,C8739R1,Call Center,510
+TranslationSoftware40,TT21465,Translation Software,660
+LaptopDesk43,L7P4035,Laptop Desk,960
+RadioYogurtMakerP4,R81O564,Radio Yogurt Maker,80
+Ribbon17,R04W892,Ribbon,60
+Barebones71,B306F21,Barebones,190
+EpilatorA8,E4280M5,Epilator,110
+TelephoneConferenceI1,T540P67,Telephone Conference,630
+SurveillanceCaptureCardO3,SK73928,Surveillance Capture Card,120
+Massager63,M62870K,Massager,80
+WirelessSecurityS4,W920W86,Wireless Security,330
+ModularInterfaceCardHub47,M859T76,Modular Interface Card Hub,970
+TvWall19,T1R9247,Tv Wall,300
+MotherboardChipsetK8,M320L69,Motherboard Chipset,240
+ShutterReleaseP4,S1490W6,Shutter Release,740
+ImageSoftwareTypesettingSoftwareP6,I1M6430,Image Software Typesetting Software,720
+MobileHardDisk42,M2348K0,Mobile Hard Disk,60
+AidedDesign56,A59027Z,Aided Design,790
+Micro-WaveOvenJ2,M108M47,Micro-Wave Oven,500
+Filter91,FJ71643,Filter,940
+Console71,C2698S3,Console,230
+CuttingPlotterD4,C21057Z,Cutting Plotter,840
+ServerAccessoriesO3,S92348F,Server Accessories,140
+Camera95,C91D367,Camera,860
+RefrigeratorZ7,R39U102,Refrigerator,70
+Ssd73,S36N209,Ssd,930
+AccessControlSystem78,A4158M9,Access Control System,740
+SetTopBoxI0,SL87069,Set Top Box,170
+Speaker30,S8104Z6,Speaker,160
+InductionDetector38,IY01329,Induction Detector,1000
+ConnectingLine92,C186H47,Connecting Line,780
+ComputerFingerprintEncryptionLock83,C1F0953,Computer Fingerprint Encryption Lock,270
+Blu-RayPlayerD5,B56K283,Blu-Ray Player,700
+Tape53,T5382D6,Tape,580
+CdPrintRecorder57,C78629B,Cd Print Recorder,780
+OperatingSystemY5,O36987R,Operating System,900
+GameConsoleBattery25,G80142H,Game Console Battery,190
+PowerLineCommunicationEquipment94,PI37560,Power Line Communication Equipment,790
+GraphicsCardC0,G70Z416,Graphics Card,380
+VideoDistributorR8,V0147T3,Video Distributor,590
+CableAdapterCardN9,CM46520,Cable Adapter Card,680
+ElectricFencF6,ER04531,Electric Fenc,60
+Hand-HeldGamingDeviceD7,H7Y6824,Hand-Held Gaming Device,660
+TeachingSoftware73,TI26891,Teaching Software,670
+HardDisk52,H9842K1,Hard Disk,360
+Multimedia39,M4329T8,Multimedia,750
+GameConsoleMemory17,G75X306,Game Console Memory,690
+Tripod50,T75D268,Tripod,580
+Minicomputer24,ML18593,Minicomputer,730
+NetworkManagementAndBackupSoftwarevirtualizationSoftware51,N2364L9,Network Management And Backup Softwarevirtualization Software,340
+MobilePhoneStylus63,M9P8604,Mobile Phone Stylus,900
+TabletCase05,T38951Z,Tablet Case,260
+MailServerSoftware74,M48J309,Mail Server Software,960
+AccessController53,A094G67,Access Controller,720
+All-In-OnePrintingMachineW9,AA85346,All-In-One Printing Machine,650
+IntegratedWiringZ2,I53862I,Integrated Wiring,360
+FiberOpticCableT6,F40365I,Fiber Optic Cable,730
+Toner79,TF15948,Toner,90
+AudioAndVideoCableP6,A02N847,Audio And Video Cable,210
+ElectricKettleR3,E2L5374,Electric Kettle,570
+DevelopSoftware23,D93P178,Develop Software,100
+Switch59,S3R8754,Switch,880
+CellphoneDataLine14,C7G8396,Cellphone Data Line,530
+PhotocopyingMachineS8,P45Q120,Photocopying Machine,860
+DisplayChipB4,DE13695,Display Chip,220
+RiceCooker18,R45327J,Rice Cooker,410
+MousePad98,M489T70,Mouse Pad,1000
+PhoneVoiceCardC4,P1D2567,Phone Voice Card,930
+CardPrinterP8,C9W7563,Card Printer,550
+LabelPrinterA6,L60241X,Label Printer,980
+MobilePhoneBaseX8,M70628E,Mobile Phone Base,20
+HairDryer59,H362I81,Hair Dryer,50
+WirelessNetworkCardD4,W52V643,Wireless Network Card,280
+Razor72,R6713Q9,Razor,970
+GasStoves79,G58A216,Gas Stoves,120
+DigitalCamera85,D8560Q1,Digital Camera,110

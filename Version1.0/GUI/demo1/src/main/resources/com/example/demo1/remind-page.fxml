@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="150.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.RemindPage">
+   <children>
+      <Text layoutX="23.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please check your login information" wrappingWidth="292.30029296875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="cancleButton" layoutX="236.0" layoutY="106.0" mnemonicParsing="false" onAction="#onCancle" prefWidth="70.0" text="Cancel" />
+      <Text layoutX="23.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login failed" wrappingWidth="175.30029296875">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

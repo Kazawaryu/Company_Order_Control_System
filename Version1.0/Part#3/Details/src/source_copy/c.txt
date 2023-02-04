@@ -1,0 +1,167 @@
+Pinduoduo,China,Shanghai,1
+Unilever,Netherlands/United Kingdom,NULL,2
+Deutsche Bank,Germany,NULL,3
+Albertson's,United States,NULL,4
+Santander Central Hispano Group,Spain,NULL,3
+Koninklijke Ahold,Netherlands,NULL,4
+Kroger,United States,NULL,4
+Tencent,China,Shenzhen,1
+Mitsubishi Motors,Japan,NULL,5
+BNP Paribas,France,NULL,3
+HSBC Holdings,United Kingdom,NULL,3
+Delphi Automotive Systems,United States,NULL,6
+Allianz,Germany,NULL,7
+Munich Re Group,Germany,NULL,7
+Chengdu AIG,China,Chengdu,8
+Home Depot,United States,NULL,4
+Robert Bosch,Germany,NULL,9
+Cardinal Health,United States,NULL,10
+BASF,Germany,NULL,11
+Meituan,China,Beijing,1
+Target,United States,NULL,4
+Agricultural Bank of China,China,Beijing,3
+CGNU,United Kingdom,NULL,7
+Enron,United States,NULL,12
+Tesco,United Kingdom,NULL,4
+Industrial and Commercial Bank of China,China,Beijing,3
+Peugeot,France,NULL,5
+Alcatel,France,NULL,9
+Dell Computer,United States,NULL,13
+Safeway,United States,NULL,4
+Nissho Iwai,Japan,NULL,14
+Royal Philips Electronics,Netherlands,NULL,9
+China North Industries Group Corporation,China,Beijing,8
+Johnson & Johnson,United States,NULL,10
+Samsung Electronics,Korea,NULL,9
+Nestlиж,Switzerland,NULL,2
+Hewlett-Packard,United States,NULL,13
+ABN AMRO Holding,Netherlands,NULL,3
+Honda Motor,Japan,NULL,5
+NEC,Japan,NULL,9
+J.C. Penney,United States,NULL,4
+Berkshire Hathaway,United States,NULL,7
+Duke Energy,United States,NULL,15
+Goldman Sachs Group,United States,NULL,16
+Pfizer,United States,NULL,10
+Fannie Mae,United States,NULL,17
+Dynegy,United States,NULL,12
+Exxon Mobil,United States,NULL,18
+Rwe Group,Germany,NULL,15
+HypoVereinsbank,Germany,NULL,3
+Morgan Stanley Dean Witter,United States,NULL,16
+Total Fina Elf,France,NULL,18
+Procter & Gamble,United States,NULL,19
+Reliant Energy,United States,NULL,20
+DaimlerChrysler,Germany,NULL,5
+L.M. Ericsson,Sweden,NULL,9
+Credit Suisse,Switzerland,NULL,3
+Nippon Telegraph & Telephone,Japan,NULL,21
+Tokyo Electric Power,Japan,NULL,15
+Sears Roebuck,United States,NULL,4
+Hyundai,Korea,NULL,14
+General Motors,United States,NULL,5
+BMW,Germany,NULL,5
+Dai-ichi Mutual Life Insurance,Japan,NULL,7
+SK,Korea,NULL,18
+Freddie Mac,United States,NULL,17
+Philip Morris,United States,NULL,22
+Toshiba,Japan,NULL,9
+Metro,Germany,NULL,4
+Chevron,United States,NULL,18
+Renault,France,NULL,5
+Texaco,United States,NULL,18
+Samsung,Korea,NULL,14
+Lucent Technologies,United States,NULL,9
+China Construction Bank,China,Beijing,3
+MiHoYo,China,Shanghai,23
+Thyssen Krupp,Germany,NULL,24
+ENI,Italy,NULL,18
+Nippon Life Insurance,Japan,NULL,7
+Kmart,United States,NULL,4
+Royal Bank of Scotland,United Kingdom,NULL,3
+Verizon Communications,United States,NULL,21
+Matsushita Electric Industrial,Japan,NULL,9
+Bank of America Corp.,United States,NULL,3
+State Farm Insurance Cos.,United States,NULL,7
+AXA,France,NULL,7
+State Power Corporation,China,Beijing,25
+BT,United Kingdom,NULL,21
+Pemex,Mexico,NULL,26
+McKesson HBOC,United States,NULL,4
+Mizuho Holdings,Japan,NULL,3
+Toyota Motor,Japan,NULL,5
+Royal Dutch/Shell Group,Netherlands/United Kingdom,NULL,18
+Nortel Networks,Canada,NULL,9
+Sumitomo,Japan,NULL,14
+Prudential,United Kingdom,NULL,7
+Xiaomi,China,Beijing,13
+Conoco,United States,NULL,18
+American International Group,United States,NULL,7
+Citigroup,United States,NULL,17
+WorldCom,United States,NULL,21
+Ing Group,Netherlands,NULL,7
+OPPO,China,Dongguan,13
+General Electric,United States,NULL,9
+Costco Wholesale,United States,NULL,4
+Allstate,United States,NULL,7
+Meiji Life Insurance,Japan,NULL,7
+Hitachi,Japan,NULL,9
+PDVSA,Venezuela,NULL,18
+Netease,China,Guangzhou,1
+Repsol YPF,Spain,NULL,18
+Deutsche Post,Germany,NULL,27
+Mitsubishi,Japan,NULL,14
+Sina,China,Beijing,1
+TIAA-CREF,United States,NULL,7
+Mitsubishi Electric,Japan,NULL,9
+Compaq Computer,United States,NULL,13
+BP,United Kingdom,NULL,18
+Bilibili,China,Shanghai,1
+Carrefour,France,NULL,4
+USX,United States,NULL,18
+Sinopec,China,Beijing,28
+Merck,United States,NULL,10
+AT&T,United States,NULL,21
+Deutsche Telekom,Germany,NULL,21
+Electricite De France,France,NULL,25
+J.P. Morgan Chase,United States,NULL,3
+China Petroleum,China,Beijing,18
+Intl. Business Machines,United States,NULL,13
+Ping An Insurance (Group) Company Of China,China,Shenzhen,7
+Itochu,Japan,NULL,14
+China Merchants Bank,China,Shenzhen,3
+MetLife,United States,NULL,7
+Zurich Financial Services,Switzerland,NULL,7
+Motorola,United States,NULL,9
+Sony,Japan,NULL,9
+UBS,Switzerland,NULL,3
+Intel,United States,NULL,29
+Sumitomo Life Insurance,Japan,NULL,7
+Merrill Lynch,United States,NULL,16
+U.S. Postal Service,United States,NULL,27
+Fortis,Netherlands/Belgium,NULL,7
+SBC Communications,United States,NULL,21
+Boeing,United States,NULL,30
+Ingram Micro,United States,NULL,4
+Vivendi Universal,France,NULL,31
+Bank Of China,China,Beijing,3
+Wal-Mart Stores,United States,NULL,4
+Suez,France,NULL,32
+China Electronics Technology Group Corporation,China,Beijing,9
+Crижdit Agricole,France,NULL,3
+Mitsui,Japan,NULL,14
+Fiat,Italy,NULL,5
+Assicurazioni Generali,Italy,NULL,7
+E.I. du Pont de Nemours,United States,NULL,11
+E. ON,Germany,NULL,14
+Huawei,China,Shenzhen,13
+Siemens,Germany,NULL,9
+Fujitsu,Japan,NULL,13
+Baidu,China,Beijing,1
+Marubeni,Japan,NULL,14
+Volkswagen,Germany,NULL,5
+Nissan Motor,Japan,NULL,5
+Alibaba,China,Hangzhou,1
+United Parcel Service,United States,NULL,27
+Ford Motor,United States,NULL,5
+France Tижlижcom,France,NULL,21

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cs307_proj2_final.DeleteOrder">
+   <children>
+      <Text layoutX="172.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Order Function">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="TEXT_input" layoutX="71.0" layoutY="90.0" prefHeight="30.0" prefWidth="364.0" text="Using &quot;,&quot; to split elements" />
+      <Button layoutX="450.0" layoutY="90.0" mnemonicParsing="false" onAction="#BUTTON_input" prefWidth="80.0" text="Input" />
+      <Button layoutX="450.0" layoutY="137.0" mnemonicParsing="false" onAction="#BUTTON_file" prefWidth="80.0" text="File" />
+      <TextField fx:id="TEXT_file" layoutX="71.0" layoutY="137.0" prefHeight="30.0" prefWidth="364.0" text="Write local file address" />
+   </children>
+</AnchorPane>
