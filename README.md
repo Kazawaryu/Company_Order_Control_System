@@ -1,6 +1,6 @@
 # Company_Order_Control_System
 
-
+**[Announcement]** The project may not run successfully at your equipment, due to the java version is not a specific sub version of java-18(JavaFX bug).
 
 ## System Version 1.0
 
